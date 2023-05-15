@@ -1,0 +1,53 @@
+body {
+	padding: 0 16px
+}
+/* .siteHeader{} */
+.siteHeader > h1{
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.calendar{
+	margin-top: 24px;
+	background-color: white;
+	color: #333;
+	border-radius: 24px;
+}
+.calendar-title{
+	text-align: center;
+	padding: 8px 0;
+}
+.calendar-title > time{}
+.calendar-weekdays{
+	display: flex;
+}
+.calendar-weekdays > li{
+	width: 14.2857%;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+}
+.calendar-days{
+	display: flex;
+	flex-wrap: wrap;
+}
+.calendar-days > li{
+	width: 14.2857%;
+	height: 42px;
+	line-height: 42px;
+	text-align: center;
+
+}
+.calendar-actions{
+	display: flex;
+	justify-content: space-between;
+	padding: 16px
+}
+.calendar-actions button {
+	font-size: 12px;
+	padding: 2px 8px;
+}
+.calendar-actions-left{}
+.calendar-actions-left > button{}
+.calendar-actions-right{}
+.calendar-actions-right > button{}
