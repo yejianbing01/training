@@ -34,11 +34,22 @@ body {
     flex-wrap: wrap;
 }
 .calendar-days > li{
-    width: 14.2857%;
+    width: calc(14.2857% - 2px);
+    margin: 1px;
     height: 42px;
     line-height: 42px;
     text-align: center;
-
+}
+.calendar-days > li.calendar-days-today {
+    background-color: #fed32c;
+    border-radius: 8px;
+}
+.calendar-days > li.calendar-days-selected {
+    outline: 1px solid #fed32c;
+    border-radius: 8px;
+}
+.calendar-days > li.calendar-days-disabled {
+    color: #ccc
 }
 .calendar-actions{
     display: flex;
